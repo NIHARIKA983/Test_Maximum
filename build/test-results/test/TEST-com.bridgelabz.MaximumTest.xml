@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.MaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-14T13:40:54" hostname="NIHARIKA" time="0.008">
+  <properties/>
+  <testcase name="testMaximum_Integer_At_FirstPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.006"/>
+  <testcase name="testMaximum_Integer_At_ThirdPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.0"/>
+  <testcase name="testMaximum_Integer_At_SecondPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
