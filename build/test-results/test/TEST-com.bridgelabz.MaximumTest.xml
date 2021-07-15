@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MaximumTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-07-15T15:34:40" hostname="NIHARIKA" time="0.025">
+<testsuite name="com.bridgelabz.MaximumTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-07-15T15:53:05" hostname="NIHARIKA" time="0.06">
   <properties/>
-  <testcase name="find_Maximum_Float_At_SecondPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.005"/>
+  <testcase name="find_Maximum_Float_At_SecondPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.016"/>
   <testcase name="findMaximum_Float_At_FirstPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
   <testcase name="findMaximum_Integer_At_SecondPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
   <testcase name="find_Maximum_String_At_SecondPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
-  <testcase name="find_Maximum_String_At_ThirdPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.0"/>
+  <testcase name="find_Maximum_String_At_ThirdPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
   <testcase name="testMethod_for_Generic_method" classname="com.bridgelabz.MaximumTest" time="0.002"/>
   <testcase name="testMethod_for_Generic_methodThree" classname="com.bridgelabz.MaximumTest" time="0.0"/>
   <testcase name="testMethod_for_Generic_methodTwo" classname="com.bridgelabz.MaximumTest" time="0.0"/>
-  <testcase name="findMaximum_Integer_At_FirstPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.0"/>
-  <testcase name="find_Maximum_String_At_firstPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
-  <testcase name="find_Maximum_Float_At_ThirdPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.002"/>
-  <testcase name="testMethod_for_Generic_Class" classname="com.bridgelabz.MaximumTest" time="0.001"/>
-  <testcase name="findMaximum_Integer_At_ThirdPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="findMaximum_Integer_At_FirstPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
+  <testcase name="find_Maximum_String_At_firstPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.005"/>
+  <testcase name="find_Maximum_Float_At_ThirdPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
+  <testcase name="testMethod_for_Generic_Class" classname="com.bridgelabz.MaximumTest" time="0.002"/>
+  <testcase name="findMaximum_Integer_At_ThirdPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.003"/>
+  <system-out><![CDATA[The Maximun Value is : 3.3
+The Maximun Value is : 3.3
+The Maximun Value is : 5
+The Maximun Value is : peach
+The Maximun Value is : peach
+The Maximun Value is : 5
+The Maximun Value is : peach
+The Maximun Value is : 3.3
+The Maximun Value is : 5
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

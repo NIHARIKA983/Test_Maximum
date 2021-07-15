@@ -24,14 +24,15 @@ public class MaximumTest {
         String result = Maximum.GenMaximum("Apple","Peach","Banana");
         Assert.assertEquals(java.util.Optional.of("Peach"),java.util.Optional.of(result));
     }
-
-    //...Generic Class...//
+    //...Genric Class...//
 
     @Test
     public void testMethod_for_Generic_Class() {
         Assert.assertEquals(java.util.Optional.of(3),java.util.Optional.of(Maximum.GenMaximumTow(1,3,2)));
         Assert.assertEquals(java.util.Optional.of(3.3f),java.util.Optional.of(Maximum.GenMaximumTow(1.1f,2.2f,3.3f)));
         Assert.assertEquals(java.util.Optional.of("Peach"),java.util.Optional.of(Maximum.GenMaximumTow("Peach","Banana","Apple")));
+
+
     }
 
     //.....UC4......//
@@ -96,7 +97,6 @@ public class MaximumTest {
     @Test
     public void find_Maximum_String_At_ThirdPosition_Gives_True() {
         String[] arr = {"Apple","peach","banana","Orange","Strawberry"};
-        // Assert.assertEquals("peach",Maximum.myString("Apple","banana","peach"));
         String result = Maximum.maximum(arr);
         Assert.assertEquals(java.util.Optional.of("peach"),java.util.Optional.of(result));
     }

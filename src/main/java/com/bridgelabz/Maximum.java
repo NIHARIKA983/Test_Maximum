@@ -12,7 +12,6 @@ public class Maximum<D extends Comparable> {
 
     D c;
 
-
     //.......GenericSs MethodSs......//
 
     public static <D extends Comparable> D maximum(D[] arr) {
@@ -21,10 +20,14 @@ public class Maximum<D extends Comparable> {
             if (temp.compareTo(arr[i]) < 0)
                 temp = arr[i];
         }
+        printMax(temp);
         return temp;
 
     }
 
+    private static <E extends Comparable> void printMax(E a) {
+        System.out.println("The Maximun Value is : " + a);
+    }
     //..Generics methods
     public static<E extends Comparable> E GenMaximum( E firstValue, E secondValue, E thirdValue) {
         E max = firstValue;
