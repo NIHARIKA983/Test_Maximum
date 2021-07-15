@@ -18,4 +18,14 @@ public class Maximum {
             max = thirdValue;
         return max;
     }
+
+    public static String myString(String firstString, String secondString, String thirdString) {
+        String max = firstString;
+        if(secondString.compareTo(max) > 0)
+            max = secondString;
+        if (thirdString.compareTo(max) > 0)
+            max = thirdString;
+
+        return max;
+    }
 }

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MaximumTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-07-15T06:20:55" hostname="NIHARIKA" time="0.018">
+<testsuite name="com.bridgelabz.MaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-07-15T10:50:19" hostname="NIHARIKA" time="0.033">
   <properties/>
-  <testcase name="testMaximum_Integer_At_FirstPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.01"/>
-  <testcase name="testFloat_Integer_At_ThirdPoisiton_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
+  <testcase name="testFloat_Integer_At_ThirdPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.015"/>
+  <testcase name="find_Maximum_String_At_SecondPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
+  <testcase name="testMaximum_Integer_At_FirstPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
+  <testcase name="find_Maximum_String_At_ThirdPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
   <testcase name="testMaximum_Integer_At_ThirdPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.0"/>
-  <testcase name="testFloat_Integer_At_SecondPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.0"/>
+  <testcase name="testFloat_Integer_At_SecondPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.001"/>
+  <testcase name="find_Maximum_String_At_firstPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.0"/>
   <testcase name="testMaximum_Integer_At_SecondPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.0"/>
   <testcase name="testFloat_Integer_At_FirstPosition_Gives_True" classname="com.bridgelabz.MaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
