@@ -1,13 +1,37 @@
 package com.bridgelabz;
 
-public class Maximum {
-    public static<E extends Comparable> E GenMaximum( E firstValue, E secondValue, E thirdValue) {
-        E max = firstValue;
-        if (secondValue.compareTo(max) > 0)
-            max = secondValue;
-        if (thirdValue.compareTo(max) > 0)
-            max = thirdValue;
 
-        return max;
-    }
+public class Maximum<D extends Comparable> {
+        D a;
+        D b;
+
+        public Maximum(D a, D b, D c) {
+            this.a = a;
+            this.b = b;
+            this.c = c;
+        }
+
+        D c;
+
+        //..Generics methods
+        public static <E extends Comparable> E GenMaximum(E firstValue, E secondValue, E thirdValue) {
+            E max = firstValue;
+            if (secondValue.compareTo(max) > 0)
+                max = secondValue;
+            if (thirdValue.compareTo(max) > 0)
+                max = thirdValue;
+
+            return max;
+        }
+
+        //.....Generics Method Using Generic Class.....//
+        public static <D extends Comparable> D GenMaximumTow(D firstValue, D secondValue, D thirdValue) {
+            D max = firstValue;
+            if (secondValue.compareTo(max) > 0)
+                max = secondValue;
+            if (thirdValue.compareTo(max) > 0)
+                max = thirdValue;
+
+            return max;
+        }
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-15T11:45:30" hostname="NIHARIKA" time="0.01">
+<testsuite name="com.bridgelabz.MaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-07-15T12:14:06" hostname="NIHARIKA" time="0.008">
   <properties/>
-  <testcase name="testMethod_for_Generic_method" classname="com.bridgelabz.MaximumTest" time="0.006"/>
+  <testcase name="testMethod_for_Generic_method" classname="com.bridgelabz.MaximumTest" time="0.005"/>
   <testcase name="testMethod_for_Generic_methodThree" classname="com.bridgelabz.MaximumTest" time="0.001"/>
-  <testcase name="testMethod_for_Generic_methodTwo" classname="com.bridgelabz.MaximumTest" time="0.001"/>
+  <testcase name="testMethod_for_Generic_methodTwo" classname="com.bridgelabz.MaximumTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
