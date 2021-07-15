@@ -4,48 +4,24 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MaximumTest {
-    @Test
-    public void testMaximum_Integer_At_FirstPosition_Gives_True() {
-        Assert.assertEquals((Integer) 3,Maximum.maxInteger(3,2,1));
-    }
+    // .....Generic methods.....//
 
+    //.....Integer.....//
     @Test
-    public void testMaximum_Integer_At_SecondPosition_Gives_True() {
-        Assert.assertEquals((Integer) 3,Maximum.maxInteger(2,3,1));
+    public void testMethod_for_Generic_method(){
+        Integer result = Maximum.GenMaximum(1,3,2);
+        Assert.assertEquals(java.util.Optional.of(3),java.util.Optional.of(result));
     }
-
+    //.....Float.....//
     @Test
-    public void testMaximum_Integer_At_ThirdPosition_Gives_True() {
-        Assert.assertEquals((Integer)3,Maximum.maxInteger(1,2,3));
+    public void testMethod_for_Generic_methodTwo() {
+        Float result = Maximum.GenMaximum(1.1f,3.3f,2.2f);
+        Assert.assertEquals(java.util.Optional.of(3.3f),java.util.Optional.of(result));
     }
-//Float
+    //.....string.....//
     @Test
-    public void testFloat_Integer_At_FirstPosition_Gives_True() {
-        Assert.assertEquals((Float)3.3f,Maximum.myFloat(3.3f,2.2f,1.1f));
-    }
-
-    @Test
-    public void testFloat_Integer_At_SecondPosition_Gives_True() {
-        Assert.assertEquals((Float)3.3f,Maximum.myFloat(1.1f,3.3f,2.2f));
-    }
-
-    @Test
-    public void testFloat_Integer_At_ThirdPosition_Gives_True() {
-        Assert.assertEquals((Float)3.3f,Maximum.myFloat(1.1f,2.2f,3.3f));
-    }
-//String
-    @Test
-    public void find_Maximum_String_At_firstPosition_Gives_True() {
-        Assert.assertEquals("peach",Maximum.myString("peach","Apple","banana"));
-    }
-
-    @Test
-    public void find_Maximum_String_At_SecondPosition_Gives_True() {
-        Assert.assertEquals("peach",Maximum.myString("banana","peach","Apple"));
-    }
-
-    @Test
-    public void find_Maximum_String_At_ThirdPosition_Gives_True() {
-        Assert.assertEquals("peach",Maximum.myString("Apple","banana","peach"));
+    public void testMethod_for_Generic_methodThree() {
+        String result = Maximum.GenMaximum("Apple","Peach","Banana");
+        Assert.assertEquals(java.util.Optional.of("Peach"),java.util.Optional.of(result));
     }
 }
